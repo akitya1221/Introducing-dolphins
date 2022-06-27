@@ -1,0 +1,42 @@
+main {
+  width: 100%;
+}
+
+main #contents {
+  margin: 0;
+}
+
+main #contents #top-slider {
+  margin: 0 5%;
+}
+
+main #contents #introduction {
+  margin: 50px 5% 0 5%;
+}
+
+main #contents #introduction .introduction-list ul {
+  margin-top: 10px;
+}
+
+main #contents #introduction .introduction-list ul li {
+  margin: 5px 0 5px 50px;
+}
+
+main #contents #introduction .introduction-listtitle {
+  margin-top: 50px;
+}
+
+main #contents #introduction .introduction-text {
+  margin: 10px 0 0 30px;
+}
+
+main #contents #introduction .introduction-gallery .dolphin-box img {
+  width: 300px;
+  height: 200px;
+}
+
+main #contents #introduction .introduction-gallery .whale-box img {
+  width: 300px;
+  height: 200px;
+}
+/*# sourceMappingURL=index.css.map */
