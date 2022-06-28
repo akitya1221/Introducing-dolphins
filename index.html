@@ -15,12 +15,15 @@
 </head>
 <body>
   <header>
+    <div class="header-img">
+      <img class="icon" src="./images/header-icon.png">
+    </div>
     <h1 class="header-title">イルカのきもち</h1>
-    <img src="">
   </header>
   <main>
     <div id="contents">
-      <div id="top-slider">
+      <div class="slider-box">
+        <div id="slider">
         <!-- bxSlider -->
         <script>
           $(document).ready(function () {
@@ -28,7 +31,6 @@
               mode: 'fade',
               auto: true,
               speed: 1000,
-              slideWidth: 640,
               randomStart: true
             });
           });
@@ -39,6 +41,8 @@
           <li><img src="./images/top-img3.jpg" height="auto"></li>
           <li><img src="./images/top-img4.jpg" height="auto"></li>
         </ul>
+      </div>
+
       </div>
       <!-- 紹介 -->
       <div id="introduction">
@@ -79,16 +83,28 @@
         </div>
         <!--Lightbox-->
         <div class="introduction-gallery">
-          <h4>イルカ</h4>
+          <h4 class="gallery-title">イルカ</h4>
           <div class="dolphin-box">
             <a href="./images/introductionーclass1-img1.jpg" data-lightbox="dolphin-box">
               <img src="./images/introductionーclass1-img1.jpg">
             </a>
+            <a href="./images/introductionーclass1-img2.jpg" data-lightbox="dolphin-box">
+              <img src="./images/introductionーclass1-img2.jpg">
+            </a>
+            <a href="./images/introductionーclass1-img3.jpg" data-lightbox="dolphin-box">
+              <img src="./images/introductionーclass1-img3.jpg">
+            </a>
           </div>
-          <h4>クジラ</h4>
+          <h4 class="gallery-title">クジラ</h4>
           <div class="whale-box">
             <a href="./images/introductionーclass2-img1.jpg" data-lightbox="whale-box">
               <img src="./images/introductionーclass2-img1.jpg">
+            </a>
+            <a href="./images/introductionーclass2-img2.jpg" data-lightbox="whale-box">
+              <img src="./images/introductionーclass2-img2.jpg">
+            </a>
+            <a href="./images/introductionーclass2-img3.jpg" data-lightbox="whale-box">
+              <img src="./images/introductionーclass2-img3.jpg">
             </a>
           </div>
         </div>
@@ -96,7 +112,7 @@
     </div>
   </main>
   <footer>
-    
+    &copy;OCR Aki Tsuzuki
   </footer>
 </body>
 </html>
